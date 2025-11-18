@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace School.BAL.ClassroomsServicesService.Commands.RemoveStudentFromClass
+namespace School.BAL.ClassroomsServices.Commands.RemoveStudentFromClass
 {
     public class RemoveStudentFromClassHandler : IRequestHandler<RemoveStudentFromClassCommand, Unit>
     {

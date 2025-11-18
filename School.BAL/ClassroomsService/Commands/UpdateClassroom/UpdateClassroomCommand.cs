@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace School.BAL.ClassroomsServicesService.Commands.UpdateClassroom
+namespace School.BAL.ClassroomsServices.Commands.UpdateClassroom
 {
     public record UpdateClassroomCommand(Guid Id, CreateClassroomDto Classroom) : IRequest<Unit>;
 }

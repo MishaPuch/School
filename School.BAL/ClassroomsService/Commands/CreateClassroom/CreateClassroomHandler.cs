@@ -3,7 +3,7 @@ using MediatR;
 using School.DAL.Model;
 using School.DAL.Repositories;
 
-namespace School.BAL.ClassroomsServicesService.Commands.CreateClassroom
+namespace School.BAL.ClassroomsServices.Commands.CreateClassroom
 {
     public class CreateClassroomHandler : IRequestHandler<CreateClassroomCommand, Guid>
     {

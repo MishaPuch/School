@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace School.BAL.ClassroomsServicesService.Commands.UpdateClassroom
+namespace School.BAL.ClassroomsServices.Commands.UpdateClassroom
 {
     public class UpdateClassroomHandler : IRequestHandler<UpdateClassroomCommand, Unit>
     {

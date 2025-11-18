@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace School.BAL.ClassroomsServicesService.Commands.AddStudentToClass
+namespace School.BAL.ClassroomsServices.Commands.AddStudentToClass
 {
     public class AddStudentToClassHandler : IRequestHandler<AddStudentToClassCommand, Unit>
     {

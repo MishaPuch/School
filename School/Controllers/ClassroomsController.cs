@@ -3,13 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using School.BAL.Models.BAL;
 using School.BAL.ClassroomsService.Queries.GetAllClassrooms;
 using School.BAL.ClassroomsService.Queries.GetClassroomById;
-using School.BAL.ClassroomsServicesService.Commands.CreateClassroom;
-using School.BAL.ClassroomsServicesService.Commands.UpdateClassroom;
-using School.BAL.ClassroomsServicesService.Commands.DeleteClassroom;
-using School.BAL.ClassroomsServicesService.Commands.AddStudentToClass;
-using School.BAL.ClassroomsServicesService.Commands.RemoveStudentFromClass;
+using School.BAL.ClassroomsServices.Commands.CreateClassroom;
+using School.BAL.ClassroomsServices.Commands.UpdateClassroom;
+using School.BAL.ClassroomsServices.Commands.DeleteClassroom;
+using School.BAL.ClassroomsServices.Commands.AddStudentToClass;
+using School.BAL.ClassroomsServices.Commands.RemoveStudentFromClass;
 
-[ApiController]
+//[ApiController]
 [Route("api/[controller]")]
 public class ClassroomsController : ControllerBase
 {

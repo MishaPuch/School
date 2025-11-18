@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using School.DAL.Repositories;
 
-namespace School.BAL.ClassroomsServicesService.Commands.DeleteClassroom
+namespace School.BAL.ClassroomsServices.Commands.DeleteClassroom
 {
     public class DeleteClassroomHandler : IRequestHandler<DeleteClassroomCommand, Unit>
     {

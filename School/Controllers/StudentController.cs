@@ -7,7 +7,7 @@ using School.BAL.Students.Commands.CreateStudent;
 using School.BAL.Students.Commands.UpdateStudent;
 using School.BAL.Students.Commands.DeleteStudent;
 
-[ApiController]
+//[ApiController]
 [Route("api/[controller]")]
 public class StudentsController : ControllerBase
 {

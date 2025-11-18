@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace School.BAL.ClassroomsServicesService.Commands.CreateClassroom
+namespace School.BAL.ClassroomsServices.Commands.CreateClassroom
 {
     public record CreateClassroomCommand(CreateClassroomDto Classroom) : IRequest<Guid>;
 }
